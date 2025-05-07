@@ -16,15 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/page.js"
     ],
-    "/(property-details)/completed-project/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(property-details)/completed-project/page.js"
+      "static/chunks/app/_not-found/page.js"
     ],
     "/(property-details)/ongoing-project/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(property-details)/ongoing-project/page.js"
+    ],
+    "/(property-details)/completed-project/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(property-details)/completed-project/page.js"
     ]
   }
 }

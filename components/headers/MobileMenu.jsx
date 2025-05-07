@@ -44,109 +44,25 @@ export default function MobileMenu() {
       <div className="offcanvas-body inner-mobile-nav">
         <div className="mb-body">
           <ul id="menu-mobile-menu">
-            <li
-              className={`menu-item menu-item-has-children-mobile  ${
-                homes.some((elm) => elm.href == pathname)
-                  ? "current-menu-item"
-                  : ""
-              } `}
+          <li
+              className={`menu-item ${
+                "/" == pathname ? "current-item" : ""
+              }`}
             >
-              <a
-                href="#dropdown-menu-one"
-                className="item-menu-mobile collapsed"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="dropdown-menu-one"
-              >
+              <Link href={"/"} className="tem-menu-mobile">
+                {" "}
                 Home
-              </a>
-              {/* <div
-                id="dropdown-menu-one"
-                className="collapse"
-                data-bs-parent="#menu-mobile-menu"
-              >
-                <ul className="sub-mobile">
-                  {homes.map((link, i) => (
-                    <li
-                      key={i}
-                      className={
-                        pathname == link.href
-                          ? "menu-item current-item"
-                          : "menu-item "
-                      }
-                    >
-                      <Link href={link.href}>{link.label}</Link>
-                    </li>
-                  ))}
-                </ul>
-              </div> */}
+              </Link>
             </li>
             <li
-              className={`menu-item menu-item-has-children-mobile  ${
-                isParentActive(propertyLinks) ? "current-menu-item" : ""
-              } `}
+              className={`menu-item ${
+                "/about" == pathname ? "current-item" : ""
+              }`}
             >
-              <a
-                href="#dropdown-menu-two"
-                className="item-menu-mobile collapsed"
-                data-bs-toggle="collapse"
-                aria-expanded="true"
-                aria-controls="dropdown-menu-two"
-              >
+              <Link href={"/about"} className="tem-menu-mobile">
+                {" "}
                 About Us
-              </a>
-              <div
-                id="dropdown-menu-two"
-                className="collapse"
-                data-bs-parent="#menu-mobile-menu"
-              >
-                <ul className="sub-mobile">
-                  {propertyLinks.map((links, i) => (
-                    <li
-                      key={i}
-                      className={`menu-item menu-item-has-children-mobile-2 ${
-                        isParentActive(links.submenu) ? "current-menu-item" : ""
-                      }`}
-                    >
-                      <a
-                        href="#sub-layout"
-                        className="item-menu-mobile collapsed"
-                        data-bs-toggle="collapse"
-                        aria-expanded="true"
-                        aria-controls="sub-agents"
-                      >
-                        {links.title}
-                      </a>
-                      <div
-                        id="sub-layout"
-                        className="collapse"
-                        data-bs-parent="#dropdown-menu-two"
-                      >
-                        <ul className="sub-mobile">
-                          {links.submenu.map((link, i2) => (
-                            <li
-                              key={i2}
-                              className={
-                                pathname.split("/")[1] ==
-                                link.href.split("/")[1]
-                                  ? "menu-item current-item"
-                                  : "menu-item "
-                              }
-                            >
-                              <Link
-                                href={link.href}
-                                className="item-menu-mobile"
-                              >
-                                {link.label}
-                              </Link>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              </Link>
             </li>
             <li
               className={`menu-item menu-item-has-children-mobile   ${
