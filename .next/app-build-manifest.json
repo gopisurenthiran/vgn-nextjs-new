@@ -25,6 +25,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(property-details)/completed-project/page.js"
+    ],
+    "/(property-details)/property-detail-v1/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(property-details)/property-detail-v1/[id]/page.js"
     ]
   }
 }
