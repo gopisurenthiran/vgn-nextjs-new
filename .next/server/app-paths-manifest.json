@@ -1,5 +1,1 @@
-{
-  "/(property-details)/ongoing-project/page": "app/(property-details)/ongoing-project/page.js",
-  "/(property-details)/completed-project/page": "app/(property-details)/completed-project/page.js",
-  "/(property-details)/property-detail-v1/[id]/page": "app/(property-details)/property-detail-v1/[id]/page.js"
-}
+{}

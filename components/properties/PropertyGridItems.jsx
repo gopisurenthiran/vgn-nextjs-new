@@ -9,7 +9,7 @@ export default function PropertyGridItems({ showItems = properties11.length }) {
       {properties11.slice(0, showItems).map((property) => (
         <div className="box-house hover-img" key={property.id}>
           <div className="image-wrap">
-            <Link href={`/property-detail-v1/${property.id}`}>
+            <Link href={`/property-detail-v5/${property.id}`}>
               <Image
                 className="lazyload"
                 data-src={property.imageSrc}
@@ -44,7 +44,7 @@ export default function PropertyGridItems({ showItems = properties11.length }) {
           </div>
           <div className="content">
             <h5 className="title">
-              <Link href={`/property-detail-v1/${property.id}`}>
+              <Link href={`/property-detail-v5/${property.id}`}>
                 {property.title}
               </Link>
             </h5>
@@ -70,7 +70,7 @@ export default function PropertyGridItems({ showItems = properties11.length }) {
                   Compare
                 </a>
                 <Link
-                  href={`/property-detail-v1/${property.id}`}
+                  href={`/property-detail-v5/${property.id}`}
                   className="tf-btn style-border pd-4"
                 >
                   Details

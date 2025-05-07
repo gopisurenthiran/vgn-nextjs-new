@@ -11,7 +11,7 @@ export default function Service() {
                 <SplitTextAnimation text="Values that shape us" />
               </h2>
               <p className="text-1 split-text split-lines-transform">
-Our company runs on the undying passion our people have for delivering happiness and satisfaction to our customers. It’s the energy and spirit of the team that has brought the brand this far. We grow together and make each other a better professional. Each department and function work with professional expertise and creative passion, culminating to create the VGN Homes renowned ‘Quality’ that is so much more than just a sum of the parts.
+    Our company runs on the undying passion our people have for delivering happiness and satisfaction to our customers. It’s the energy and spirit of the team that has brought the brand this far. We grow together and make each other a better professional. Each department and function work with professional expertise and creative passion, culminating to create the VGN Homes renowned ‘Quality’ that is so much more than just a sum of the parts.
               </p>
               <p className="text-1 split-text split-lines-transform">
               Our team of reputed architects, civil contractors, legal advisors, financial planners, expert marketing, CRM and sales teams, HR professionals and administrators, skillfully guided by our top management leave no stone unturned in order to ensure collective growth and success. It’s this team that helped us build ‘Trust’ in our customers.

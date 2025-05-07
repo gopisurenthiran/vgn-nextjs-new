@@ -9,7 +9,7 @@ export default function PropertyListItems({ showItems = properties11.length }) {
       {properties11.slice(0, showItems).map((property, i) => (
         <div key={i} className="box-house style-list hover-img">
           <div className="image-wrap">
-            <Link href={`/property-detail-v1/${property.id}`}>
+            <Link href={`/property-detail-v5/${property.id}`}>
               <Image
                 className="lazyload"
                 alt=""
@@ -37,7 +37,7 @@ export default function PropertyListItems({ showItems = properties11.length }) {
           </div>
           <div className="content">
             <h5 className="title">
-              <Link href={`/property-detail-v1/${property.id}`}>
+              <Link href={`/property-detail-v5/${property.id}`}>
                 {property.title}
               </Link>
             </h5>
@@ -59,7 +59,7 @@ export default function PropertyListItems({ showItems = properties11.length }) {
               <h5 className="price">${property.price.toLocaleString()}</h5>
               <div className="wrap-btn flex">
                 <Link
-                  href={`/property-detail-v1/${property.id}`}
+                  href={`/property-detail-v5/${property.id}`}
                   className="tf-btn style-border pd-4"
                 >
                   Details

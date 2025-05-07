@@ -226,7 +226,20 @@ export const properties2 = [
     price: 8600,
   },
 ];
+export const properties13 = [
+  {
+    id: 13,
+    imageSrc: "/images/section/box-house-18.jpg",
+    width: 465,
+    height: 311,
+    delay: "0s",
+    title: "Elegant studio flat",
+    location: "102 Ingraham St, Brooklyn, NY 11237",
+    price: 8600,
+    date: "December 20, 2024",
+  },
 
+];
 export const properties3 = [
   {
     id: 13,
