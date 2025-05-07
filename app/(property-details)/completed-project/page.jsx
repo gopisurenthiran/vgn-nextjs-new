@@ -2,7 +2,7 @@ import Cta from "@/components/common/Cta";
 
 import Footer1 from "@/components/footers/Footer1";
 import Header1 from "@/components/headers/Header1";
-import FilterTop from "@/components/properties/FilterTop";
+import FilterTop1 from "@/components/properties/FilterTop1";
 import Properties10 from "@/components/properties/Properties10";
 
 import React from "react";
@@ -17,7 +17,7 @@ export default function page() {
     <>
       <div id="wrapper">
         <Header1 />
-        <FilterTop />
+        <FilterTop1 />
         <div className="main-content">
           <Properties10 defaultGrid />
           <Cta />

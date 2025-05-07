@@ -17,7 +17,12 @@ export default function FilterTop() {
                     Home
                   </Link>
                 </li>
-                <li>Property Listing</li>
+                <li>
+                <Link className="home fw-6 text-color-3" href={`/`}>
+                    Projects
+                  </Link>
+                </li>
+                <li>Ongoing Projects</li>
               </ul>
             </div>
             <div className="wg-filter style-2 relative">

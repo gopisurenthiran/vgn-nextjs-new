@@ -1,4 +1,4 @@
-// File: C:\Users\admin\Downloads\template-01\app\(property-details)\ongoing-project\page.jsx
+// File: C:\Users\admin\Downloads\vgn-nextjs-new\app\(property-details)\ongoing-project\page.jsx
 import * as entry from '../../../../../app/(property-details)/ongoing-project/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
